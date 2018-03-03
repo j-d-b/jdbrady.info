@@ -4,6 +4,7 @@
 var pageHashes = ['#home', '#products', '#contact'];
 var currentHash = '#home';
 var defaultHash = '#home'; // could link to page not found, etc.
+var currPage = 'projects';
 
 // $(document).ready(function(){
 //   currentHash = checkHash( $(location).attr('hash') );
@@ -26,21 +27,22 @@ $(document).ready(function() {
 
   $('.nav-a').on('click', function() {
     var page = $(this).attr('data-target');
-    console.log(page);
-    var path = page + '.html';
+    if(page != currPage){
+      currPage = page;
+      var path = page + '.html';
+      $('#home-content').load(path, function() {
+        if(page == 'projects') {
+          loadProj();
+        }
+      });
 
-    $('#home-content').load(path, function() {
-      if(page == 'projects') {
-        loadProj();
+      if ($(this).hasClass('nav-active')){
+        return;
       }
-    });
-
-    if ($(this).hasClass('nav-active')){
-      return;
-    }
-    else {
-      $('.nav-a').removeClass('nav-active');
-      $(this).addClass('nav-active');
+      else {
+        $('.nav-a').removeClass('nav-active');
+        $(this).addClass('nav-active');
+      }
     }
   });
 
