@@ -1,0 +1,44 @@
+<div class="tab-content">
+  <div id="proj" class="tab-pane show active" >
+    <h4 class="extra-top-pad">YT WorldTrends</h4>
+      <p class="list-elmnt">YouTube-sourced, world-map-based, trending video explorer; single-page web app <a href="links/yt_worldtrends/index.html">link</a></p>
+    <h4>sketches in air</h4>
+                        <p class="list-elmnt">My first shot at making any vocal-based music; full album. Tried to keep it fresh and go for variety <a href="https://soundcloud.com/jacobbrady/sets/sketches-in-air">link</a></p>
+                    <h4>SPACECAT</h4>
+                        <p class="list-elmnt"> Precision puzzle platformer game written in Haskell. Written w/ I. McInerney <a href="links/spacecat.html">link</a></p>
+                    <h4>Time: An Exploration</h4>
+                        <p class="list-elmnt">A documentation of the passage of time in various environments through the use of time lapse photography <a href="https://vimeo.com/170727021">link</a></p>
+                    <h4>RGB Astronomical Image Processing Guide</h4>
+                        <p class="list-elmnt">Reference manual for astronomical image processing and post-processing workflow using SAOImage DS9 and Adobe Lightroom 5, currently used in PHYS0155 <a href="files/astro_proc_guide_nov2016.pdf">link</a></p>
+                    <h4>Survivors of the Past</h4>
+                        <p class="list-elmnt">Somewhat experimental electronic music piece created in Ableton Live <a href="https://soundcloud.com/jacobbrady/survivors-of-the-past">link</a></p>
+                    <h4>Observatory Images</h4>
+                        <p class="list-elmnt">Processed and edited a handful of astronomical objects for the Middlebury College Observatory; I think M16 is the best <a href="links/obsv_imgs.html" target="_self">link</a></p>
+                    <h4>TSS Estimator</h4>
+                        <p class="list-elmnt">Web app for estimating training stress score in endurance athletic planning. First time with web development and I didn't know what I was doing <a href="links/tss_calc.html">link</a></p>
+                </div>
+
+                <div id="about" class="tab-pane">
+                    <h4 class="extra-top-pad">About Me</h4>
+                    <p>Even in the earliest memories still available to my conscious contemplation, I liked to create things. I’ve done a range of projects over the years: building electric bikes, pressing longboards, designing and constructing a miniature, 10’x10’ house, running a popular Minecraft server when that bad boy was still in beta–<span class="bold">I like making things</span>. I’ve also done a few oil <a href="files/my_wh_replicas.jpg">paintings</a> (hope to do more), taken thousands of <a href="links/photo.html" target="_self">photos</a>, and produced some <a href="https://soundcloud.com/jacobbrady/">songs</a> and <a href="https://vimeo.com/170727021">film</a>s.</p>
+                    <p>In everything I do, I research and attempt to to utilize the most professional methods. I trust my inherent <span class="bold">sense of visual design</span> and believe this is my greatest strength. I’m an advocate of cleanliness and minimalism and always recognize suboptimal aspects of everything around me.</p>
+                    <p>I began <span class="bold">programming</span> in 2014, and recognized it to be a functional continuation of both my design strength and inclination to make things. Writing clean, efficient, and aesthetically beautiful code is my favorite aspect, especially if the code displays something beautiful as well.</p>
+                    <p>Holding a mindset of eternal curiosity, I believe <span class="bold">everything is interesting</span>. I try to spend most of my time pushing aside the worldview lens set in front of me by society and the culture I live in, and seeing the infinite possibilities of life.</p>
+                    <p>A large part of my life the past few years has been <span class="bold">endurance athletics</span>. I played ultimate frisbee from middle school until senior year in college, and recently made the transition to triathlon. I’ve built workouts for athletes, and full plans for myself and friends. I did my first real tri in September 2015, a few weeks after getting a bike. After a couple years of recreational running, I began using TrainingPeaks in 2016 to focus my training and analyze data. I did a 100-mile Zwift ride that winter, and set-up my bike on a trainer in my dorm room for the next year and a half at college. Summer 2016 I raced two olympic tris, as well as various running races and a duathlon. In the fall of 2016 I did my first half-marathon and then returned to largely indoor cycling as winter came, but kept a running base. As soon as the outdoors began to thaw, I switched almost exclusively to running. I did another half-marathon, blasting my last time with a <a href="https://www.facebook.com/pbmcoaching/photos/a.10150336403020393.572414.354701750392/10158937869945393/">1:26:47</a>. I’m a huge fan of <a href="https://www.strava.com/athletes/10671693">strava</a>; definitely shoot me a follow.</p>
+                    <p>I realized a few years back that <span class="bold">Japanese</span> animation is a beautifully unique art form. Some of my most emotional, inspired, and wonder-filled experiences have been while watching a Japanese film (list <a href="https://myanimelist.net/animelist/j-d-b">here</a>). Motivated by the medium, I spent a year studying the Japanese language my senior year of college. 漢字を書くのが本当に好きだけど、話すのが苦手です。</p>
+                    <p>At a similar time—I guess I was realizing a lot of things were amazing then—I got my first telescope (10-inch Dobsonian) and began <span class="bold">astronomy</span>. Peering through that eyepiece both gave me a true sense of scale for the universe we live in, which again helps to extract myself from the restricted mindset of many of those around me. Additionally, I found my visual skills to be applicable in this realm, and memorizing the locations of deep-sky-objects and then locating them in the scope was extremely fun. I let this passion extend to working for the college <a href="http://sites.middlebury.edu/observatory/">observatory</a>, and matched with my artistic inclinations and new equipment at the school, produced a series of <a href="links/obsv_imgs.html" target="_self">images</a> for use by the school.</p>
+                    <p>I was enlightened a few years back that ‘your <span class="bold">brain is smarter than you</span>,’ and that not overthinking choices, such as a brush stroke in a painting, yields the best results. I’ve tried to apply this concept to everything around me, whether with lyrics in my <a href="https://soundcloud.com/jacobbrady/sets/sketches-in-air">music</a> or executing a behind-the-back shot of a soymilk container into the recycling bin.</p>
+                    <p>I aspire to translate the ideas and inspirations in my mind to a tangible medium where they can be experienced by those around me.</p>
+                </div>
+
+                <div id="photo" class="tab-pane">
+                    <h4 class="extra-top-pad">Photography</h4>
+                    <p>I take a lot of photos, but normally they don't go anywhere. I'm going to start trying to put some iPhone photos on Instagram and MILC photos here.</p>
+                    <p>I borrowed my mother's DSLR for years as a child, and went through a few point and shoots myself. Got my Fujifilm X-T1 in 2015. I do most of my processing in Adobe Lightroom and have played around with Affinity Photo. I'm interested in the beauty and intrigue of the shapes in the world around me. Great framing excites me; the aesthetic qualities of an image appeal to me as much as its subject.</p>
+                    <p>I also processed astronomical images for the Middlebury College observatory, available <a href="links/obsv_imgs.html">here</a>.</p>
+                    <p>Fujifilm X-T1, 35mm f1.4, 12mm f2</p>
+                    <div class="extra-top-pad">
+                        <a href="links/photo.html" class="btn btn-default" role="button" target="_self">View Gallery</a>
+                    </div>
+                </div>
+            </div>

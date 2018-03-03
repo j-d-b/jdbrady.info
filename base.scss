@@ -1,0 +1,125 @@
+$light-gray: #aaaaaa;
+$bs-breakpoint-md: 768px;
+$bs-breakpoint-lg: 992px;
+
+@media (min-width: $bs-breakpoint-md) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: $bs-breakpoint-lg) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.bg-gray {
+  background-color: #dddddd;
+}
+
+.card:hover{
+  border-color: black;
+  cursor: pointer;
+}
+
+.proj-selected {
+  border-color: black;
+}
+
+
+
+.font-sm {
+  font-size: .95rem;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-reg {
+  font-size: 1rem;
+}
+
+.char-space {
+  letter-spacing: 2px;
+}
+
+.font-xs {
+  font-size: .85rem;
+}
+
+.font-gray {
+  color: $light-gray;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.border-bottom-black {
+  border-bottom: 1px solid black;
+}
+
+.border-right-black {
+  border-right: 1px solid black;
+}
+
+.border-gray {
+  border: 1px solid $light-gray;
+}
+
+.border-left-black {
+  border-left: 1px solid black;
+}
+
+.border-top-black {
+  border-top: 1px solid black;
+}
+
+.anchor-plain {
+  a:visited, a:hover, a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.photo {
+  padding-bottom: 36px;
+}
+
+.expand-fnc:hover{
+  text-decoration: underline !important;
+}
+
+.nav-a {
+  &:hover {
+    cursor: pointer;
+    color: black !important;
+    text-decoration: none;
+  }
+}
+
+.nav-active {
+  color: black !important;
+}
+
+.logos {
+  font-size: 1.25rem;
+  a:hover{
+    color: #666666;
+  }
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
