@@ -1,6 +1,8 @@
 {{#each projects}}
-  <div class="card border-gray rounded p-3 mb-2 mt-2" data-target="{{href}}">
-    <span class="font-reg font-weight-bold">{{name}}</span>
-    <p class="mb-0">{{{description}}}</p>
-  </div>
+  <a href="{{href}}">
+    <div class="project card border-gray rounded p-3 mb-2 mt-2">
+      <span class="font-reg font-weight-bold">{{name}}</span>
+      <p class="mb-0 proj-desc">{{{description}}}</p>
+    </div>
+  </a>
 {{/each}}

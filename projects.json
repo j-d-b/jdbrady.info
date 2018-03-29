@@ -1,36 +1,44 @@
 {
   "projects": [
-    { "name": "Time: An Exploration",
+    {
+      "name": "Time: An Exploration",
       "description": "A documentation of the passage of time in various environments through the use of time lapse photography",
-      "href": "https://vimeo.com/170727021"
+      "href": "#time"
     },
-    { "name": "YT Worldtrends",
+    {
+      "name": "YT Worldtrends",
       "description": "YouTube-sourced, world-map-based, trending video explorer",
-      "href": "links/yt_worldtrends/index.html"
+      "href": "#worldtrends"
     },
-    { "name": "sketches in air",
+    {
+      "name": "sketches in air",
       "description": "My first shot at making any vocal-based music; full album. Tried to keep it fresh and go for variety",
-      "href": "https://soundcloud.com/jacobbrady/sets/sketches-in-air"
-     },
-    { "name": "SPACECAT",
-      "description": "Precision puzzle platformer game written in Haskell",
-      "href": "links/spacecat.html"
+      "href": "#sketches"
     },
-    { "name": "Astronomical Image Processing Guide",
+    {
+      "name": "SPACECAT",
+      "description": "Precision puzzle platformer game written in Haskell",
+      "href": "#spacecat"
+     },
+    {
+      "name": "Astronomical Image Processing Guide",
       "description": "Reference manual for astronomical image processing workflow using SAOImage DS9 and Adobe Lightroom",
       "href": "files/astro_proc_guide_nov2016.pdf"
     },
-    { "name": "Survivors of the Past",
+    {
+      "name": "Survivors of the Past",
       "description": "Somewhat experimental electronic music piece created in Ableton Live",
-      "href": "https://soundcloud.com/jacobbrady/survivors-of-the-past"
+      "href": "#survivors"
     },
-    { "name": "Observatory Images",
-      "description": "A handful of astronomical objects produced for the Middlebury College Observatory",
-      "href": "links/obsv_imgs.html"
+    {
+      "name": "Observatory Images",
+      "description": "A handful of astronomical images produced for the Middlebury College Observatory",
+      "href": "#observatory"
     },
-    { "name": "Kombucha",
-      "description": "I started brewing kombucha in August 2017 with plans for eventual distribution",
-      "href": ""
+    {
+      "name": "Kombucha",
+      "description": "Started brewing in Aug 2017; a great drink",
+      "href": "#kombucha"
     }
   ]
 }

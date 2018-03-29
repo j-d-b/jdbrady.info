@@ -1,0 +1,84 @@
+{
+  "images": [
+    { "short-name": "M13",
+      "common-name": "Great Globular Cluster in Hercules",
+      "date": "Summer 2016",
+      "source": "../files/obsv_imgs/thumbs/m13-2016-thumb.jpg"
+    },
+    { "short-name": "M16",
+      "common-name": "Eagle Nebula",
+      "date": "Summer 2016",
+      "source": "../files/obsv_imgs/thumbs/m16-2016-thumb.jpg"
+    },
+    { "short-name": "M17",
+      "common-name": "Omega Nebular",
+      "date": "Summer 2016",
+      "source": "../files/obsv_imgs/thumbs/m17-2016-thumb.jpg"
+    },
+    { "short-name": "M27",
+      "common-name": "Dumbbell Nebular",
+      "date": "Spring 2016",
+      "source": "../files/obsv_imgs/thumbs/m27-2016-thumb.jpg"
+    },
+    { "short-name": "M51",
+      "common-name": "Whirlpool Galaxy",
+      "date": "Summer 2016",
+      "source": "../files/obsv_imgs/thumbs/m51-2016-thumb.jpg"
+    },
+    { "short-name": "M57",
+      "common-name": "Ring Nebula",
+      "date": "Spring 2016",
+      "source": "../files/obsv_imgs/thumbs/m57-2016-thumb.jpg"
+    },
+    { "short-name": "M63",
+      "common-name": "Sunflower Galaxy",
+      "date": "Summer 2017",
+      "source": "../files/obsv_imgs/thumbs/m63-2017-thumb.jpg"
+    },
+    { "short-name": "M81",
+      "common-name": "Bode's Galaxy",
+      "date": "Summer 2017",
+      "source": "../files/obsv_imgs/thumbs/m81-2017-thumb.jpg"
+    },
+    { "short-name": "M97",
+      "common-name": "Owl Nebula",
+      "date": "Summer 2017",
+      "source": "../files/obsv_imgs/thumbs/m97-2017-thumb.jpg"
+    },
+    { "short-name": "M101",
+      "common-name": "Pinwheel Galaxy",
+      "date": "Summer 2017",
+      "source": "../files/obsv_imgs/thumbs/m101-2017-thumb.jpg"
+    },
+    { "short-name": "M104",
+      "common-name": "Sombrero Galaxy",
+      "date": "Summer 2017",
+      "source": "../files/obsv_imgs/thumbs/m104-2017-thumb.jpg"
+    },
+    { "short-name": "M1",
+      "common-name": "Crab Nebula",
+      "date": "Winter 2016",
+      "source": "../files/obsv_imgs/thumbs/m1-2016-thumb.jpg"
+    },
+    { "short-name": "M27",
+      "common-name": "Dumbbell Nebula",
+      "date": "Fall 2015",
+      "source": "../files/obsv_imgs/thumbs/m27-2015-thumb.jpg"
+    },
+    { "short-name": "M33",
+      "common-name": "Triangulum Galaxy",
+      "date": "Fall 2015",
+      "source": "../files/obsv_imgs/thumbs/m33-2015-thumb.jpg"
+    },
+    { "short-name": "M57",
+      "common-name": "Ring Nebula",
+      "date": "Fall 2015",
+      "source": "../files/obsv_imgs/thumbs/m57-2015-thumb.jpg"
+    },
+    { "short-name": "NGC6995",
+      "common-name": "Eastern Veil Nebula",
+      "date": "Fall 2015",
+      "source": "../files/obsv_imgs/thumbs/ngc6995-2015-thumb.jpg"
+    }
+  ]
+}

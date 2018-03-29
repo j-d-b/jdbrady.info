@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TSS Estimator</title>
+        <meta charset="utf-8"></meta>
+        <meta name="keywords" content="TSS,estimation,training,estimator,caclulator"></meta>
+        <meta name="description" content="TSS estimation and more"></meta>
+        <meta name="author" content="Jacob Brady"></meta>
+        <style>
+            .calc_box{
+            	width:300px;
+            	height:425px;
+            	left:50%;
+                top: 12%;
+                position: absolute;
+                background-color: #95b8dd;
+                margin-left: -200px;
+                padding: 20px 50px;
+                border-radius: 20px;
+                font-size: 13px;
+                font-family: Verdana, Arial;
+                box-shadow: 2px 4px 9px 2px #b3b3b3;
+
+            }
+            #heading {
+                padding-bottom: 4px;
+                font-family: "Verdana";
+                font-size: 35px;
+            }
+            .answ {
+                display: inline-block;
+                font-weight: bold;
+                margin: 5px 30px;
+                font-size: 14px;
+            }
+            .footnote {
+                font-size: 9px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                padding-bottom: 12px;
+            }
+            body {
+                text-align: center;
+                background-color: #e4e6e7;
+            }
+
+
+        </style>
+        <script>
+            /* TSS CALCULATIONS */
+            var tss;
+            var i_fctr;
+            var vb = .01; //adds IF for real world variability. Work in progress
+            var num_zones = 5;
+
+            function calculate_tss() {
+
+                var zone_str = "z";
+                for(i = 1; i < num_zones+1; i++){
+                    var zone_id = zone_str.concat(i.toString());
+                    if(document.getElementById(zone_id).value == ""){
+                        document.getElementById(zone_id).value = 0;
+                    }
+                }
+
+                var z_one = parseInt(document.getElementById("z1").value);
+                var z_two = parseInt(document.getElementById("z2").value);
+                var z_three = parseInt(document.getElementById("z3").value);
+                var z_four = parseInt(document.getElementById("z4").value);
+                var z_five = parseInt(document.getElementById("z5").value);
+
+                var tot_mins = z_one + z_two + z_three + z_four + z_five;
+
+                i_fctr = (z_one*.6 + z_two*.71 + z_three*.88 + z_four + z_five*1.1) / tot_mins;
+
+                document.getElementById("if_result").innerHTML = i_fctr.toFixed(2);
+
+                tss = Math.round(Math.pow((i_fctr + vb), 2) * (tot_mins/60) * 100);
+
+                document.getElementById("tss_result").innerHTML = tss;
+            }
+
+            function clear_values() {
+                var zone_str = "z";
+                for(i = 1; i < num_zones+1; i++){
+                    var zone_id = zone_str.concat(i.toString());
+                    document.getElementById(zone_id).value = 0;
+                }
+                document.getElementById("if_result").innerHTML = 0;
+                document.getElementById("tss_result").innerHTML = 0;
+
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <div class="calc_box">
+            <h1 id="heading">TSS Estimator</h1>
+            <p id="zone">Zone 1: <input type="number" id="z1" value="0" onclick="this.select();">  minutes</p>
+            <p id="zone">Zone 2: <input type="number" id="z2" value="0" onclick="this.select();">  minutes</p>
+            <p id="zone">Zone 3: <input type="number" id="z3" value="0" onclick="this.select();">  minutes</p>
+            <p id="zone">Zone 4: <input type="number" id="z4" value="0" onclick="this.select();">  minutes</p>
+            <p id="zone">Zone 5: <input type="number" id="z5" value="0" onclick="this.select();">  minutes</p>
+
+            <button type="button" onclick="calculate_tss()">Calculate TSS</button>
+            <button type="button" onclick="clear_values()" style="display: inline-block">Clear</button>
+            <br></br>
+
+            <div class="answ">
+                <p>TSS: </p>
+                <p id="tss_result">0</p>
+            </div>
+            <div class="answ">
+                <p>IF: </p>
+                <p id="if_result">0</p>
+            </div>
+        </div>
+
+        <div class="footnote">
+            <p>This page is under construction, but the math works, I think</p>
+            <p>Jacob Brady</p>
+        </div>
+
+    </body>
+
+</html>
