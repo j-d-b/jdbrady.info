@@ -10,6 +10,9 @@ body {
     .card-columns {
         column-count: 2;
     }
+    .mt-md-7vh {
+      margin-top: 7vh;
+    }
 }
 
 @media (min-width: $bs-breakpoint-lg) {

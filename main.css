@@ -3,7 +3,10 @@ body {
 
 @media (min-width: 768px) {
   .card-columns {
-    column-count: 2; } }
+    column-count: 2; }
+    .mt-md-7vh {
+      margin-top: 7vh;
+    }}
 @media (min-width: 992px) {
   .card-columns {
     column-count: 3; } }
