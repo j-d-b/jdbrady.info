@@ -1,19 +1,18 @@
 // Jacob Brady
-
-const projHashes = ['#time', '#worldtrends', '#sketches', '#spacecat', '#survivors', '#observatory', '#surf', '#kombucha' ];
-const navHashes = ['#projects', '#about', '#photo'];
-const validHashes = projHashes.concat(navHashes);
-const defaultHash = '#projects';
+var projHashes = ['#time', '#worldtrends', '#sketches', '#spacecat', '#survivors', '#observatory', '#surf', '#kombucha' ];
+var navHashes = ['#projects', '#about', '#photo'];
+var validHashes = projHashes.concat(navHashes);
+var defaultHash = '#projects';
 
 var currentHash = '#projects';
 
 $(document).ready(function(){
-  currentHash = checkValid( $(location).attr('hash') );
+  currentHash = checkValid($(location).attr('hash'));
   displayContent(currentHash);
   setHighlight(currentHash);
 
   $(window).on('hashchange', function() {
-    var newHash = checkValid( $(location).attr('hash') );
+    var newHash = checkValid($(location).attr('hash'));
     switchHighlight(newHash);
     displayContent(newHash);
     currentHash = newHash;
@@ -21,55 +20,38 @@ $(document).ready(function(){
 });
 
 function hashToPath(hash) {
-  return '/_' + hash.substring(1) + '.html'; // prefix partials w/ underscore
+  return 'pages/_' + hash.substring(1) + '.html'; // prefix partials w/ underscore
 }
 
 function checkValid(hash) {
   var isValid = $.inArray(hash, validHashes) != -1;
-  if (isValid) {
-    return hash;
-  }
-  else {
-    window.location.hash = defaultHash;
-    return defaultHash;
-  }
+  if (isValid) return hash;
+  window.location.hash = defaultHash;
+  return defaultHash;
 }
 
 function displayContent(hash) {
-  if(hash == '#astro'){
-    return;
-  }
-
   var path = hashToPath(hash);
   $('#home-content').load(path, function() {
-    if (hash == '#projects') {
-      loadProj();
-    }
-    else if (hash == '#observatory') {
-      loadObsvImgs();
-    }
+    if (hash === '#projects') loadProj();
+    else if (hash === '#observatory') loadObsvImgs();
   });
 }
 
 // changes the menu highlight to match the given hash
 function switchHighlight(hash) {
-  if (hash != currentHash) {
-    setHighlight(hash);
-  }
+  if (hash !== currentHash) setHighlight(hash);
 }
 
 // highlights only navbar item corresponding to the given hash
 function setHighlight(hash) {
-  if( $.inArray(hash, projHashes) != -1) {
-    hash = '#projects';
-  }
   $('.nav-a').removeClass('nav-active');
+  if ($.inArray(hash, projHashes) !== -1) hash = '#projects';
   $('a[href="' + hash + '"]').addClass('nav-active');
 }
 
-
 function loadProj() {
-  $.getJSON('projects.json', function(context) {
+  $.getJSON('data/projects.json', function(context) {
     var templateScript = Handlebars.templates.projects(context);
     $('#projects').html(templateScript);
 
@@ -85,12 +67,11 @@ function loadProj() {
         $('.proj-desc', this).html('Reference manual for astronomical image processing workflow using SAOImage DS9 and Adobe Lightroom');
       }
     );
-
   });
 }
 
 function loadObsvImgs() {
-  $.getJSON('obsv-imgs.json', function(context) {
+  $.getJSON('data/obsv-imgs.json', function(context) {
     var templateScr = Handlebars.templates.obsv(context);
     $('#obsv-imgs').html(templateScr);
     $('.obsv-img').on('click', function() {
