@@ -1,5 +1,5 @@
 // Jacob Brady
-var projHashes = ['#time', '#worldtrends', '#sketches', '#spacecat', '#survivors', '#observatory', '#surf', '#kombucha' ];
+var projHashes = ['#time', '#worldtrends', '#sketches', '#spacecat', '#survivors', '#observatory', '#bctc-tas'];
 var navHashes = ['#projects', '#about', '#photo'];
 var validHashes = projHashes.concat(navHashes);
 var defaultHash = '#projects';
