@@ -12,9 +12,18 @@ The repo is very disorganized currently as I just threw some stuff together in t
 Didn't even get to organizing the files, as I started learning React when I was partway through this, so I go it to an acceptable point and published it. Since then I have learned often there is not time to refactor, so here it stays.
 
 ## Usage
-`index.html` can be opened directly in the browser. There are no automated build steps. All the needs to be done is precompiling the Handlebars templates which is done from the CLI with globally installed handlebars:
+This site is a simple spa that has a few build steps involving compiling the `scss` and `handlebars` templates and copying the content of `public` to a `dist` directory. The `dist` directory contains an `index.html` file and can then be served.
+
+The build steps can be run with:
+```
+npm i
+npm run build
+```
+
+This will generate the `dist` directory. 
+
+To serve the site, run:
 
 ```
-npm i -g handlebars@4.0.11
-handlebars templates -f compiled-templates.js
+npm run start
 ```

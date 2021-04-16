@@ -1,0 +1,32 @@
+{
+  "name": "jdbrady.info",
+  "version": "1.0.0",
+  "description": "Jacob Brady's personal website",
+  "main": "main.js",
+  "scripts": {
+    "build": "handlebars src/templates -f dist/compiled-templates.js && sass src/base.scss dist/main.css && cp -r public/* dist/",
+    "start": "http-server dist -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-d-b/jdbrady.info.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "jacob",
+    "brady"
+  ],
+  "author": "j-d-b <jacob@jbrady.info>",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-d-b/jdbrady.info/issues"
+  },
+  "homepage": "https://jbrady.info",
+  "devDependencies": {
+    "handlebars": "^4.0.11",
+    "http-server": "^0.12.3",
+    "sass": "^1.32.8"
+  }
+}
