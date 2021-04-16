@@ -75,7 +75,7 @@ function loadObsvImgs() {
     var templateScr = Handlebars.templates.obsv(context);
     $('#obsv-imgs').html(templateScr);
     $('.obsv-img').on('click', function() {
-      window.location = 'obsv_imgs.html';
+      window.location = 'pages/obsv_imgs.html';
     });
   });
 }
