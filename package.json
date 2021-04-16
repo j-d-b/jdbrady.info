@@ -4,7 +4,7 @@
   "description": "Jacob Brady's personal website",
   "main": "main.js",
   "scripts": {
-    "build": "handlebars src/templates -f dist/compiled-templates.js && sass src/base.scss dist/main.css && cp -r public/* dist/",
+    "build": "mkdir -p dist && handlebars src/templates -f dist/compiled-templates.js && sass src/base.scss dist/main.css && cp -r public/* dist/",
     "start": "http-server dist -o"
   },
   "repository": {
