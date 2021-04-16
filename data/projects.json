@@ -12,7 +12,7 @@
     },
     {
       "name": "sketches in air",
-      "description": "My first shot at making any vocal-based music; full album. Tried to keep it fresh and go for variety",
+      "description": "My first shot at making any vocal-based music—full album.",
       "href": "#sketches"
     },
     {
@@ -27,13 +27,18 @@
     },
     {
       "name": "Survivors of the Past",
-      "description": "Somewhat experimental electronic music piece created in Ableton Live",
+      "description": "Synth-focused electronic program music created in Ableton Live",
       "href": "#survivors"
     },
     {
       "name": "Observatory Images",
-      "description": "A handful of astronomical images produced for the Middlebury College Observatory",
+      "description": "A handful of astronomical images produced for the Mittleman Observatory",
       "href": "#observatory"
+    },
+    {
+      "name": "BCTC Truck Appointment System",
+      "description": "A web-based truck appointment system featuring a GraphQL web API and a React web app",
+      "href": "#bctc-tas"
     }
   ]
 }
