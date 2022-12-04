@@ -1,10 +1,9 @@
-// Jacob Brady
 var projHashes = ['#time', '#worldtrends', '#sketches', '#spacecat', '#survivors', '#observatory', '#bctc-tas'];
-var navHashes = ['#projects', '#about', '#photo'];
+var navHashes = ['#about', '#projects', '#photo'];
 var validHashes = projHashes.concat(navHashes);
-var defaultHash = '#projects';
+var defaultHash = '#about';
 
-var currentHash = '#projects';
+var currentHash = '#about';
 
 $(document).ready(function(){
   currentHash = checkValid($(location).attr('hash'));
