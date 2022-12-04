@@ -2,43 +2,48 @@
   "projects": [
     {
       "name": "Time: An Exploration",
-      "description": "A documentation of the passage of time in various environments through the use of time lapse photography",
+      "description": "Documentation of the passage of time in various environments through the use of time lapse photography.",
       "href": "#time"
     },
     {
       "name": "YT Worldtrends",
-      "description": "YouTube-sourced, world-map-based, trending video explorer",
+      "description": "YouTube-sourced, world-map-based, trending video explorer.",
       "href": "#worldtrends"
     },
     {
       "name": "sketches in air",
-      "description": "My first shot at making any vocal-based music—full album.",
+      "description": "My first and only vocal-based full music album.",
       "href": "#sketches"
     },
     {
       "name": "SPACECAT",
-      "description": "Precision puzzle platformer game written in Haskell",
+      "description": "Precision puzzle platformer game written in Haskell.",
       "href": "#spacecat"
      },
     {
       "name": "Astronomical Image Processing Guide",
-      "description": "Reference manual for astronomical image processing workflow using SAOImage DS9 and Adobe Lightroom",
+      "description": "Reference manual for astronomical image processing workflow using SAOImage DS9 and Adobe Lightroom.",
       "href": "files/astro_proc_guide_nov2016.pdf"
     },
     {
       "name": "Survivors of the Past",
-      "description": "Synth-focused electronic program music created in Ableton Live",
+      "description": "Synth-focused electronic program music.",
       "href": "#survivors"
     },
     {
-      "name": "Observatory Images",
-      "description": "A handful of astronomical images produced for the Mittleman Observatory",
+      "name": "Astronomical Images",
+      "description": "Astronomical images produced for the Mittleman Observatory.",
       "href": "#observatory"
     },
     {
       "name": "BCTC Truck Appointment System",
-      "description": "A web-based truck appointment system featuring a GraphQL web API and a React web app",
+      "description": "A web-based truck appointment system featuring a GraphQL web API and a React web app.",
       "href": "#bctc-tas"
+    },
+    {
+      "name": "Work Zone Data Exchange (WZDx) Software Library",
+      "description": "Open-source .NET class library containing models and utitlies for producing and consuming WZDx data feeds.",
+      "href": "https://github.com/ibi-group/IBI.WZDx"
     }
   ]
 }
